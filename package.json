@@ -1,0 +1,31 @@
+{
+  "name": "devops-plan-api",
+  "version": "0.1.0",
+  "description": "backend API for roadmap",
+  "homepage": "https://github.com/AyoubGhanmi/devops-plan-api#readme",
+  "bugs": {
+    "url": "https://github.com/AyoubGhanmi/devops-plan-api/issues"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyoubGhanmi/devops-plan-api.git"
+  },
+  "license": "MIT",
+  "author": "ayoub ghanmi",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
