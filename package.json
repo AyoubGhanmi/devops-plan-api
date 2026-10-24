@@ -1,0 +1,48 @@
+{
+  "name": "devops-plan-api",
+  "version": "0.1.0",
+  "description": "backend API for roadmap",
+  "homepage": "https://github.com/AyoubGhanmi/devops-plan-api#readme",
+  "bugs": {
+    "url": "https://github.com/AyoubGhanmi/devops-plan-api/issues"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyoubGhanmi/devops-plan-api.git"
+  },
+  "license": "MIT",
+  "author": "ayoub ghanmi",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev":"tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "eslint": "^10.13.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.72.0",
+    "vitest": "^5.0.5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  },
+  "main": "eslint.config.js",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "undici-types": "^8.9.0"
+  },
+  "keywords": []
+}
